@@ -1,4 +1,4 @@
-# BANCO DE DADOS POSTGRESQL/POSTGIS
+# BANCO DE DADOS POSTGRESQL COM POSTGIS
 
 #### 1. Clonar o repositório git para sua máquina
 
