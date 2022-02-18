@@ -3,7 +3,9 @@
 1. Clonar o repositório git para sua máquina
 
 ```
-git clone "link do repositório"
+git clone git@github.com:valderlijorge/postgres_db.git
+ou
+git clone https://github.com/valderlijorge/postgres_db.git
 ```
 
 2. Copiar arquivo .env.example para .env
@@ -12,7 +14,9 @@ git clone "link do repositório"
 cp .env.example .env
 ```
 
-3. Para remover possíveis volumes
+    alterar as credenciais no arquivo .env conforme preferir
+
+3. Remover possíveis volumes
 
 ```
 docker-compose down --volumes
