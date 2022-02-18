@@ -6,7 +6,7 @@
 git clone git@github.com:valderlijorge/postgres_db.git
 ```
 
-    ou
+ou
 
 ```
 git clone https://github.com/valderlijorge/postgres_db.git
@@ -18,7 +18,7 @@ git clone https://github.com/valderlijorge/postgres_db.git
 cp .env.example .env
 ```
 
-    - alterar as credenciais no arquivo .env conforme preferir
+alterar as credenciais no arquivo .env conforme preferir
 
 3. Remover possíveis volumes
 
