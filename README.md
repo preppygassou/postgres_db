@@ -6,7 +6,7 @@
 git clone git@github.com:valderlijorge/postgres_db.git
 ```
 
-ou
+    ou
 
 ```
 git clone https://github.com/valderlijorge/postgres_db.git
