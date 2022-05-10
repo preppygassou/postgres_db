@@ -1,7 +1,14 @@
-version: "3.3"
+version: "3.5"
+
+networks:
+  postgres_db_network:
+    name: postgres_db_network
+    driver: bridge
+
 services:
   db:
     container_name: postgres_db
+    image: postgres_db
     build:
       context: .
       dockerfile: Dockerfile
@@ -13,6 +20,8 @@ services:
       - "${DB_PORT}:5432"
     volumes:
       - db:/var/lib/postgresql/data
+    networks:
+      - postgres_db_network
 volumes:
   db:
     driver: local
