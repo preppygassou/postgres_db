@@ -3,13 +3,13 @@
 #### 1. Clonar o repositório git para sua máquina
 
 ```
-git clone git@github.com:IPAMamazonia/postgres_db.git
+git clone git@github.com:preppygassou/postgres_db.git
 ```
 
 ou
 
 ```
-git clone https://github.com/IPAMamazonia/postgres_db.git
+git clone https://github.com/preppygassou/postgres_db.git
 ```
 
 #### 2. Copiar arquivo .env.example para .env
@@ -31,3 +31,4 @@ docker-compose down --volumes
 ```
 docker-compose up -d --build
 ```
+# postgres_db
