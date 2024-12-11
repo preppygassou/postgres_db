@@ -1,34 +1,35 @@
-# BANCO DE DADOS POSTGRESQL COM POSTGIS
+# POSTGRESQL DATABASE WITH POSTGIS
 
-#### 1. Clonar o repositório git para sua máquina
+#### 1. Clone the git repository to your machine
 
 ```
 git clone git@github.com:preppygassou/postgres_db.git
 ```
 
-ou
+or
 
 ```
 git clone https://github.com/preppygassou/postgres_db.git
 ```
 
-#### 2. Copiar arquivo .env.example para .env
+#### 2. Copy the .env.example file to .env
 
 ```
 cp .env.example .env
 ```
 
-alterar as credenciais no arquivo .env conforme preferir
+change the credentials in the .env file as preferred
 
-#### 3. Remover possíveis volumes
+#### 3. Remove possible volumes
 
 ```
 docker-compose down --volumes
 ```
 
-#### 4. Subir o container (-d para rodar no backgroud)
+#### 4. Start the container (-d to run in the background)
 
 ```
 docker-compose up -d --build
 ```
 # postgres_db
+
